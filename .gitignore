@@ -1,0 +1,25 @@
+# build
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+publish/
+
+# local and secret
+scratch/
+secrets.json
+*.env
+*.pem
+*.pfx
+
+# minecraft things that must never land here
+*.jar
+servers.dat
+whitelist*.json
+ops.json
+usercache.json
+server.properties
+world*/
+logs/
